@@ -66,3 +66,6 @@ def main(app_data=None):
     if errors:
         print errors
         sys.exit(1)
+
+if __name__ == '__main__':
+    main()
